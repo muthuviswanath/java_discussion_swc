@@ -1,0 +1,11 @@
+Rajnikanth goes to ATM center and withdraws 50000 rupees from his bank account
+
+Objects: Rajnikanth
+Implicit                Explicit
+ATMMachine              Rajnikanth
+pincode                 amount
+Card
+Money/Cash
+
+
+

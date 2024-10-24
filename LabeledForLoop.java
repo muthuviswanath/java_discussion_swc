@@ -14,3 +14,4 @@ public class LabeledForLoop {
 // 1 1 
 // 1 2
 // 1 3
+// Whenever the outer loop has to be controlled by inner loop(break and continue)
