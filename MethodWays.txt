@@ -1,0 +1,20 @@
+1. Method that takes input and returns something
+
+int method1(int a, String name){
+    return a;
+}
+
+2. Method that takes input but returns nothing
+
+void method1(int a, int b){
+
+}
+3. Method that takes nothing and returns nothing
+
+void method1(){
+
+}
+4. Method that takes nothing but returns something
+int method1(){
+    return 5;
+}

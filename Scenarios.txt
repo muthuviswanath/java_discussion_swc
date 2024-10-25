@@ -1,0 +1,7 @@
+ATMMachine (Card c, int pin)
+InternetBanking (String username, String password, String captcha, int otp)
+MobileBanking (mpin)
+
+method overloading
+
+
