@@ -1,0 +1,14 @@
+1. One class acquiring the properties of another class.
+2. The class which acquires the properties is called as a sub/child/derived class
+3. The class whose properties are acquired is called as a super/parent/base class
+4. static members of the class can be accessed by the sub class but cannot be inherited
+5. constructor doesn't involve in inheritance
+6. private and final members cannot be inherited
+7. If the method(s) are overridden, then the implementation always happens from the 
+    sub class / implementation class
+8. Even though it is programatically possible to create object of the super class,
+    it is not recommended to do so as it makes no sense in the real world.
+9. Using inheritance we achieve generalization and specialization
+10. It is called as is-a relationship
+11. Only when there is a possibility of establishing the parent child relationship,
+   we can consider using inheritance.

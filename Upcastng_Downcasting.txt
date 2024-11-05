@@ -1,0 +1,50 @@
+Upcasting:
+    It is the phenomenon where the super class object reference, points out to the sub class
+    object
+
+class A{
+
+    void display(){
+        System.out.println("Hello");
+    }
+}
+
+class B extends A{
+
+    @Override
+    void display(){
+        System.out.println("Bye");
+    }
+}
+
+class T{
+    public static void main(String[] args){
+        A a = new B(); // upcasting
+        a.display();
+
+        byte byt = 45;          (1 byte)
+        int inter = byt;        (4 bytes) (Implicit Type Casting)
+    }
+}
+
+
+
+Primitives:
+
+    byte            1 byte                      1(ltr)
+    short           2 bytes                     2(ltr)
+    int             4 bytes
+    long            8 bytes
+    float           4 bytes single precision
+    double          8 byes double precision
+
+
+    int age = 12
+    byte bt = age;
+
+
+    In case of upcasting, it is only possible to access the common methods (overridden)
+    If the attempt is made to access the sub class specific methods, it will give error.
+    To overcome this challenge, we need to downcast it
+
+    Re-referring or casting the upcasted variable back to one of its subclass is called downcasting.
